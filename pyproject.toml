@@ -5,17 +5,23 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
+    "accelerate>=0.31",
+    "datasets>=2.19",
+    "evaluate>=0.4.6",
     "ipykernel>=6.29.5",
     "joblib>=1.4.2",
     "jupyterlab>=4.3.8",
     "matplotlib>=3.7.5",
+    "msal[broker]>=1.34.0",
     "notebook>=7.3.3",
     "numpy<2",
     "pandas>=2.0.3",
     "portalocker>=2.0.0",
+    "rich>=14.1.0",
     "scikit-learn>=1.3.2",
     "seaborn>=0.13.2",
     "torch==2.3.0",
     "torchdata==0.9.0",
     "torchtext==0.18.0",
+    "transformers>=4.56",
 ]
